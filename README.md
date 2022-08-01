@@ -64,7 +64,7 @@ The main goal is to predict machine failure before it happens bases on different
 
 
 
-  [High Level Documentation](https://youtu.be/4G2rwHDW2fo)
+  [Project Demo Video](https://youtu.be/4G2rwHDW2fo)
 
 
 
