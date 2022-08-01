@@ -1,0 +1,43 @@
+📦Final Predictive Mainntaines
+ ┣ 📂Data_Infromation
+ ┃ ┗ 📜null_values.csv
+ ┣ 📂Data_preparation
+ ┃ ┗ 📜data_perparation.ipynb
+ ┣ 📂Directory_tree
+ ┃ ┗ 📜directory_tree.txt
+ ┣ 📂Documents
+ ┃ ┣ 📜Architecture.pdf
+ ┃ ┣ 📜DPR.pdf
+ ┃ ┣ 📜HLD.pdf
+ ┃ ┣ 📜LLD.pdf
+ ┃ ┗ 📜WireFrame Document.pdf
+ ┣ 📂EDA
+ ┃ ┗ 📜EDA.ipynb
+ ┣ 📂Model
+ ┃ ┗ 📂Random Forest
+ ┃ ┃ ┣ 📜model_2.pkl
+ ┃ ┃ ┣ 📜testing model.ipynb
+ ┃ ┃ ┗ 📜training model.ipynb
+ ┣ 📂Model_Video
+ ┃ ┗ 📜project_Demo_video.mp4
+ ┣ 📂static
+ ┃ ┣ 📂CSS
+ ┃ ┃ ┗ 📜main.css
+ ┃ ┗ 📜jet-removebg-preview.png
+ ┣ 📂templates
+ ┃ ┣ 📜index.html
+ ┃ ┗ 📜predict.html
+ ┣ 📂train_test_data
+ ┃ ┣ 📜Test1.csv
+ ┃ ┣ 📜Test2.csv
+ ┃ ┣ 📜Test3.csv
+ ┃ ┣ 📜Test4.csv
+ ┃ ┣ 📜train_1.csv
+ ┃ ┣ 📜train_2.csv
+ ┃ ┣ 📜train_3.csv
+ ┃ ┗ 📜train_4.csv
+ ┣ 📜app.py
+ ┣ 📜model_2.pkl
+ ┣ 📜pred.py
+ ┣ 📜Procfile.txt
+ ┗ 📜requirements.txt

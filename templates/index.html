@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Home | Predictive Maintenance</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='CSS/main.css')}}">
+    </head>
+    <body id="page-top">
+        <header>
+            <div class="container d-flex align-items-center flex-column">
+                <!-- <div style="height: 200px;">
+                    <img class="masthead-avatar mb-5" src="heart.png" alt="..." style = "height: 200px;"/>
+                </div> -->
+                <h1 class="masthead-heading text-uppercase mb-0" style ="padding:20px;">Predictive Maintenance</h1>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+        
+        </header>
+        <section class="page-section portfolio">
+            <div class="login">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Enter the value of Engine features</h2>
+                <form action="{{ url_for('predict')}}"method="post">
+                    <div class="row justify-content-center" style="padding-top: 20px;">
+                        <div class="col-md-6">
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="Cycle" placeholder="Cycle" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="OpSet1" placeholder="OpSet1" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="OpSet2" placeholder="OpSet2" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="OpSet3" placeholder="OpSet3" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM1" placeholder="SM1" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM2" placeholder="SM2" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM3" placeholder="SM3" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM4" placeholder="SM4" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM5" placeholder="SM5" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM6" placeholder="SM6" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM7" placeholder="SM7" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM8" placeholder="SM8" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM9" placeholder="SM9" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM11" placeholder="SM11" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM10" placeholder="SM10" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM11" placeholder="SM11" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM12" placeholder="SM12" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM13" placeholder="SM13" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM14" placeholder="SM14" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM15" placeholder="SM15" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SrM16" placeholder="SrM16" required="required">
+                            </div>-->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM17" placeholder="SM17" required="required">
+                            </div>
+                            <!--
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM18" placeholder="SM18" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM19" placeholder="SM19" required="required">
+                            </div>
+                            -->
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM20" placeholder="SM20" required="required">
+                            </div>
+                            <div class="form-group" style="padding-top: 10px; padding-bottom: 5px;">
+                                <input type="text" class="form-control" name="SM21" placeholder="SM21" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button_cont" align="center" style="padding-top: 20px;">
+                        <button type="submit" class="btn btn-primary btn-block btn-large"><strong>Predict</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <center><h1>{{ prediction_text }}</h1></center>
+        </div>
+    </section>
+
+    
+                            
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/ac6cc11466.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
