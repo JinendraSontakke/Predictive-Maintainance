@@ -50,9 +50,16 @@ The main goal is to predict machine failure before it happens bases on different
 * Home Page 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/76476273/132872549-65c3ee52-5160-4ceb-      ab06-4ed8940d9910.png" width='600px'>
+  <img src="https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/main/IMG/home%20(1).jpg" width='600px'>
+</p>
+
+* Predict Page
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/main/IMG/predict.jpg" width='600px'>
 </p>
 
 
+# Predictive Maintenance Project Video 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
