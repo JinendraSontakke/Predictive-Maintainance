@@ -63,3 +63,43 @@ The main goal is to predict machine failure before it happens bases on different
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+https://youtu.be/4G2rwHDW2fo
+
+
+# Deployment Links
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ Azure Link : https://predmain.azurewebsites.net/
+ 
+ # Run Locally
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Clone the project
+```bash
+   git clone https://github.com/JinendraSontakke/Predictive-Maintainance
+```
+* Go to the project directory
+```bash
+  cd Predictive-Maintainance
+```
+* Install dependencies
+```bash
+  pip install -r requirements.txt
+```
+* Run the app.py
+```bash
+  python app.py
+```
+
+# Conclusions
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+I developed a Remaining Useful life Predictive model with the capbility of indentifying machine failure before it happens. The Proposed Approach Accept Input Data Was Pre-Processed By Way Of Missing Values Imputation, Non-Numeric To Numeric Feature Conversion And Normalization, And Split Into Training And Test Set. The Training Set Is Passed Into A Data Balancing Module To Ensure Equal Class Distribution In Learning Model Decisions. he Predictive Models Were Validated On Test Data And Their Performances Were Evaluated. The Evaluation Of The Result Obtained Showed By Accuracy Score.
+
+# Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[High Level Documentation]
+
+
