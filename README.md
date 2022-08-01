@@ -63,7 +63,9 @@ The main goal is to predict machine failure before it happens bases on different
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-https://youtu.be/4G2rwHDW2fo
+<video width="320" height="240" controls>
+  <source src="https://youtu.be/4G2rwHDW2fo">
+</video>
 
 
 # Deployment Links
