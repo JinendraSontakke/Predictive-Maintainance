@@ -102,6 +102,21 @@ I develop a Remaining Useful life Predictive model with the capability of identi
 # Documentation
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[High Level Documentation]
+[High Level Documentation](https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/98751bbafaac0bf75ee460efaba1c065cbd4b3bb/Documents/HLD.pdf)
+
+[Low Level Documentation](https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/98751bbafaac0bf75ee460efaba1c065cbd4b3bb/Documents/LLD.pdf)
+
+[WireFrame](https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/98751bbafaac0bf75ee460efaba1c065cbd4b3bb/Documents/WireFrame%20Document.pdf)
+
+[Detail Project Report](https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/98751bbafaac0bf75ee460efaba1c065cbd4b3bb/Documents/DPR.pdf)
+
+[Architecture Documentation](https://raw.githubusercontent.com/JinendraSontakke/Predictive-Maintainance/98751bbafaac0bf75ee460efaba1c065cbd4b3bb/Documents/Architecture.pdf)
+
+
+
+
+
+
+
 
 
